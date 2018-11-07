@@ -1,0 +1,46 @@
+PODS:
+  - Alamofire (4.7.3)
+  - LeanCloud (14.0.0):
+    - LeanCloud/Foundation (= 14.0.0)
+    - LeanCloud/LocalStorage (= 14.0.0)
+    - LeanCloud/Storage (= 14.0.0)
+  - LeanCloud/Foundation (14.0.0)
+  - LeanCloud/LocalStorage (14.0.0):
+    - LeanCloud/Foundation
+  - LeanCloud/Storage (14.0.0):
+    - Alamofire (~> 4.7.3)
+    - LeanCloud/Foundation
+    - LeanCloud/LocalStorage
+  - PKHUD (5.2.0)
+  - SnapKit (4.0.1)
+  - SQLite.swift (0.11.5):
+    - SQLite.swift/standard (= 0.11.5)
+  - SQLite.swift/standard (0.11.5)
+
+DEPENDENCIES:
+  - LeanCloud (from `../swift-sdk`)
+  - PKHUD
+  - SnapKit
+  - SQLite.swift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - PKHUD
+    - SnapKit
+    - SQLite.swift
+
+EXTERNAL SOURCES:
+  LeanCloud:
+    :path: "../swift-sdk"
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  LeanCloud: 3ce5a5eb53001904718eb24518710697b9583bb3
+  PKHUD: dd5357ac65f26115c35c4a68e9b328053326c5fe
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+  SQLite.swift: 6e5356850bb1791459f8c16d6ee9195b28714a2e
+
+PODFILE CHECKSUM: 1b86e5f3bfe493f5670c2677ea44d31018133217
+
+COCOAPODS: 1.5.3
